@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="350dp"
+        android:layout_width="500dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/image"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:textColor="@color/textColor"
+        android:text="Welcome"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@color/textColor"
+        android:text="Create a new account"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Register"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>

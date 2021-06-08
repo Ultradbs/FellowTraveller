@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:src="@drawable/image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#0d6e6a"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.03"/>
+
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/forget"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passField"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/forget"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logSubmit"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/regText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Don't have an account? Sign Up"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
